@@ -15,6 +15,17 @@ cd blog-api
 npm install
 ```
 
+## Use the database
+In the database folder you will find the database.sql called **blog_db**, import it in **Workbench** or **Xampp** and configure the following **.env variables**:
+
+Example:
+
+* DB_HOST=localhost 
+* DB_USER=your user
+* DB_PASSWORD=your password
+* DB_DATABASE=blog_db
+* DB_PORT=3306
+
 ## Run
 ```$
 npm start
