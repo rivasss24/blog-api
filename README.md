@@ -16,7 +16,7 @@ npm install
 ```
 
 ## Use the database
-In the database folder you will find the database.sql called **blog_db**, import it in **Workbench** or **Xampp** and configure the following **.env variables**:
+In the **database** folder you will find the **database.sql** called **blog_db**, import it in **Workbench** or **Xampp** and configure the following **.env variables**:
 
 Example:
 
