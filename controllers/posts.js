@@ -1,4 +1,4 @@
-const { dbQuery } = require('../db/config');
+const { dbQuery } = require('../database/config');
 const cloudinary = require('cloudinary').v2;
 cloudinary.config( process.env.CLOUDINARY_URL );
 

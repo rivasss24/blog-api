@@ -1,5 +1,5 @@
 
-const { dbQuery } = require('../db/config');
+const { dbQuery } = require('../database/config');
 
 const existeEmail = async( correo = '' ) => {
     const [ respuesta ] = await dbQuery("SELECT userEmail FROM usuarios WHERE userEmail = ?", correo );

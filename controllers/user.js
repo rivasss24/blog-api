@@ -1,5 +1,5 @@
 //const Usuario = require("../models/usuario");
-const { dbQuery } = require('../db/config');
+const { dbQuery } = require('../database/config');
 
 const bcryptjs = require("bcryptjs");
 

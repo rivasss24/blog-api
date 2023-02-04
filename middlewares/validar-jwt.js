@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
-const { dbQuery } = require('../db/config');
+const { dbQuery } = require('../database/config');
 
 const validarJWT = async( req, res, next ) => {
 

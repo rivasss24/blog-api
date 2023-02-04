@@ -1,6 +1,6 @@
 const { response } = require("express");
 const bcryptjs = require("bcryptjs");
-const { dbQuery } = require("../db/config");
+const { dbQuery } = require("../database/config");
 const { generarJWT } = require('../helpers/generar-jwt');
 
 const login = async ( req = require , res = response ) => {
